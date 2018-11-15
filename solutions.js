@@ -277,6 +277,12 @@ Note, please use two for loops to complete this problem
 
 var guide = [["Honolulu", "Waikiki"], ["Tokyo", "Tsukiji Fish Market"], ["Cairo", "Pyramids"],["Rome", "Colosseum"]];
 
+for(var i = 0; i<guide.length; i++){
+  for(var j = 0; j<guide[i].length; j++){
+    console.log(guide[i][j])
+  }
+}
+
 
 /* 15) Back to School
 Declare a variable named `currentCohort` and set it's value to be this [array found here](https://gist.github.com/sgnl/e40879b2249e06ca7811).
